@@ -1,0 +1,12 @@
+ <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 400 100">
+    <!-- Curly Braces -->
+    <path d="M40 10 C30 20, 30 40, 40 50 C30 60, 30 80, 40 90" stroke="blue" stroke-width="4" fill="none" />
+    <path d="M360 10 C370 20, 370 40, 360 50 C370 60, 370 80, 360 90" stroke="blue" stroke-width="4" fill="none" />
+    
+    <!-- Play Button -->
+    <polygon points="180,30 220,50 180,70" fill="green" />
+    
+    <!-- Text: JS Playground -->
+    <text x="100" y="65" font-family="Arial" font-size="24" font-weight="bold" fill="blue">JS</text>
+    <text x="150" y="65" font-family="Arial" font-size="24" fill="black" style="opacity: 0.8">Playground</text>
+  </svg>

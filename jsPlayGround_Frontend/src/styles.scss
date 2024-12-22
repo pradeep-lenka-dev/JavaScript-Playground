@@ -1,0 +1,102 @@
+/* Default (Light Theme) */
+:root {
+    --background-color: #f7f7f7;
+    --secondary-background: #ffffff;
+    --text-color: #333333;
+    --button-bg: #2d87f0;
+    --button-hover-bg: #2378c0;
+    --code-bg: #f5f5f5;
+    --code-text-color: #333333;
+    --code-keywords: #d73a49;
+    --code-strings: #032f62;
+    --code-functions: #6f42c1;
+  }
+  
+  /* Dark Theme */
+  [data-theme='dark'] {
+    --background-color: #1e1e1e;
+    --secondary-background: #2d2d2d;
+    --text-color: #dcdcdc;
+    --button-bg: #56b6c2;
+    --button-hover-bg: #4fa2a0;
+    --code-bg: #282c34;
+    --code-text-color: #f8f8f2;
+    --code-keywords: #c678dd;
+    --code-strings: #98c379;
+    --code-functions: #61afef;
+  }
+  
+  /* General Body Styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Code Editor Styles */
+  .code-editor {
+    background-color: var(--code-bg);
+    color: var(--code-text-color);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 200px;
+    overflow: auto;
+  }
+  
+  /* Syntax Highlighting Styles */
+  .keyword {
+    color: var(--code-keywords);
+  }
+  
+  .string {
+    color: var(--code-strings);
+  }
+  
+  .function {
+    color: var(--code-functions);
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    background-color: var(--secondary-background);
+    color: var(--text-color);
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+  }
+  
+  /* Main Content Styling */
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
